@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Farm 21",
+    "slug": "farm-21",
+    "version": "3.1.320",
+    "orientation": "portrait",
+    "icon": "./assets/app-logo.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "scheme" : "farm21",
+    "plugins" : [
+      [
+        "expo-build-properties" , 
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "dark"
+    },
+    "android": {
+      "permissions": ["INTERNET"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "userInterfaceStyle": "dark",
+      "package": "com.ammar_siddiqui.Farm1"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b29c3a51-d56c-4b09-96ee-51e5b8325bf9"
+      }
+    },
+    "owner": "ammar_siddiqui"
+  }
+}
